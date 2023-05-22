@@ -52,15 +52,33 @@ npm i react-router-dom@6.4.1
 npm i clsx@1.2.1
 ```
 
-6. 安裝完畢後，執行專案，輸入:
+6. 安裝JSON server
 
 ```
-$ npm start
+npm i json-server@0.17.0
 ```
 
-7. 執行成功瀏覽器會自動開啟新頁面 http://localhost:3000/
-8. TodoPage 頁面需輸入 http://localhost:3000/todo
-9. 暫停專案在終端機輸入 ctrl + c
+7. 安裝Axios
+
+```
+npm install axios@0.27.2
+```
+
+8. 安裝完畢後，執行專案，輸入(啟動前端頁面):
+
+```
+npm start
+```
+
+9. 執行專案，輸入(啟動後端頁面):
+
+```
+npm run dev-server
+```
+
+10. 執行成功瀏覽器會自動開啟新頁面 http://localhost:3000/
+11. TodoPage 頁面需輸入 http://localhost:3000/todo
+12. 暫停專案在終端機輸入 ctrl + c
 
 ## 使用工具
 
@@ -70,3 +88,4 @@ $ npm start
 - React Router
 - clsx
 - Sass
+- Postman
